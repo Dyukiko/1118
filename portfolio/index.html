@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ユキコのポートフォリオ</title>
+    <meta name="description"content="小雪のポートフォリオ">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+       .underline {
+        position: relative;
+        display: inline-block;
+        padding: 0 10px;
+        /* テキストと円の間にスペースを作成 */
+        border-bottom: 1px solid #66a5ad;
+        /* 下線を追加 */
+        width: 90%;
+        }
+
+        .underline::before,
+        .underline::after {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        /* 下線と円の位置を合わせる */
+        width: 6px;
+        height: 6px;
+        background-color: #66a5ad;
+        border-radius: 50%;
+        }
+
+        .underline::before {
+        left: 0;
+        /* 左側の円 */
+        transform: translateX(-50%);
+        }
+
+        .underline::after {
+        right: 0;
+        /* 右側の円 */
+        transform: translateX(50%);
+        }
+        .image-box {
+        width: fit-content;
+        border: 2px solid white; /* 白い外枠 */
+        border-radius: 0 100px 0 100px; /* 角を丸める */
+        overflow: hidden;
+        }
+
+        .image-box img {
+        display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="underline">Koyuki Kageyama</h1>
+                <p>DESIGN/CODING</p>
+            </div>
+            <!--メイン画像-->
+            <div><img src="../images/5F414004-86AE-491E-920E-C0D8A06BAF25.jpg" alt="2/13誕生花フリージア"></div>
+        </div>
+            <!--ナビケーションメニュー-->
+            <nav id="nav-sp">
+                <a href="index.html#about">about</a>
+                <a href="index.html#work">work</a>
+                <a href="index.html#skill">skill</a>
+                <a href="index.html#contact">contact</a>
+            </nav>
+    </header>
+    <main>
+        <article>
+            <!--about-->
+            <h2 class="underline">about</h2>
+            <h3>Koyuki Kageyama</h3>
+            <h4>デザイン/コーディング</h4>
+            <p>千歳市出身<br>自己紹介</p>
+                    <div class="image-box">
+                        <img src="../images/IMG_3238 2.jpg" alt="本人画像" width="300">
+                    </div>
+                </div>
+            <!--work-->
+            <h2 class="underline">work</h2>
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
+            <!--skill-->
+            <h2 class="underline">skill</h2>
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
+        </article>
+    </main>
+    <!--contact-->
+    <footer>
+        <h2 class="underline">contact</h2>
+        <h3>Koyuki Kageyama</h3>
+        <p>nkoetewmaska2003@icloud.com</p>
+        <p>080-9615-1479</p>
+        <div class="sns-link right">
+            <div>
+                <a class="snsicon" href="https://twitter.com/Koyuki153755"><img src="../images/xicon.jpg" alt="Twitterのリンク"></a>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/profile.php?id=61556361781498"><img src="../images/Facebook_Logo_Primary.jpg" alt="facebookのリンク"></a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/dyukiko_213"><img src="../images/Instagram_Glyph_Black.jpg" alt="instagramのリンク"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

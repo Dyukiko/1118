@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body {
+  text-align: center;
+  background-color: #ffc0cb;
+  color: #66a5ad
+}
+img {
+  width: 100%;
+}
+.sns-link {
+  display: flex;
+  margin-top: 20px;
+  color: #66a5ad;
+}
+.sns-link div {
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+}
+h1 {
+  font-size:60px;
+  text-align:left
+}
+h2 {
+  font-size: 55px;
+}
+h3 {
+  font-size: 30px;
+}
